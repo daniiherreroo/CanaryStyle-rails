@@ -10,12 +10,84 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_03_093237) do
+ActiveRecord::Schema.define(version: 2021_05_03_101543) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "banadores_hombre", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "bikinis_mujer", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "camisetas_hombre", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "camisetas_mujer", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "chaquetas_hombre", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "chaquetas_mujer", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "complementos_hombre", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "complementos_mujer", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "pantalones_hombre", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "source"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "pantalones_mujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
