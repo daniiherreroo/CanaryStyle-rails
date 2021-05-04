@@ -4,7 +4,7 @@
         "id": "CH1",
         "precio": "10,00€",
         "source": "images/FotosHombres/Camisetas/camiseta1.jpg",
-        "html": "camiseta.html?id=CH1"
+        "html": "camisetaHombre.html?id=CH1"
         
     },
     {
@@ -12,7 +12,7 @@
         "id": "CH2",
         "precio": "9,00€",
         "source": "images/FotosHombres/Camisetas/camiseta2.jpg",
-        "html": "camiseta.html?id=CH2"
+        "html": "camisetaHombre.html?id=CH2"
         
     },
     {
@@ -20,7 +20,7 @@
         "id": "CH3",
         "precio": "8,50€",
         "source": "images/FotosHombres/Camisetas/camiseta3.jpg",
-        "html": "camiseta.html?id=CH3"
+        "html": "camisetaHombre.html?id=CH3"
         
     },
     {
@@ -28,7 +28,7 @@
         "id": "CH4",
         "precio": "10,00€",
         "source": "images/FotosHombres/Camisetas/camiseta4.jpg",
-        "html": "camiseta.html?id=CH4"
+        "html": "camisetaHombre.html?id=CH4"
         
     },
     {
@@ -36,7 +36,7 @@
         "id": "CH5",
         "precio": "9,50€",
         "source": "images/FotosHombres/Camisetas/camiseta5.jpg",
-        "html": "camiseta.html?id=CH5"
+        "html": "camisetaHombre.html?id=CH5"
         
     },
     {
@@ -44,7 +44,7 @@
         "id": "CH6",
         "precio": "8,00€",
         "source": "images/FotosHombres/Camisetas/camiseta6.jpg",
-        "html": "camiseta.html?id=CH6"
+        "html": "camisetaHombre.html?id=CH6"
         
     }
 ]

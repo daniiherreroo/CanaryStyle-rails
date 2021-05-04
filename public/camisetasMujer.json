@@ -4,7 +4,7 @@
         "id": "CM1",
         "precio": "6,99€",
         "source": "images/FotosMujeres/Camisetas/camiseta1.jpg",
-        "html": "camiseta.html?id=CM1"
+        "html": "camisetaMujer.html?id=CM1"
         
     },
     {
@@ -12,7 +12,7 @@
         "id": "CM2",
         "precio": "13,99€",
         "source": "images/FotosMujeres/Camisetas/camiseta2.jpg",
-        "html": "camiseta.html?id=CM2"
+        "html": "camisetaMujer.html?id=CM2"
         
     },
     {
@@ -20,7 +20,7 @@
         "id": "CM3",
         "precio": "4,99€",
         "source": "images/FotosMujeres/Camisetas/camiseta3.jpg",
-        "html": "camiseta.html?id=CM3"
+        "html": "camisetaMujer.html?id=CM3"
         
     },
     {
@@ -28,7 +28,7 @@
         "id": "CM4",
         "precio": "8,99€",
         "source": "images/FotosMujeres/Camisetas/camiseta4.jpg",
-        "html": "camiseta.html?id=CM4"
+        "html": "camisetaMujer.html?id=CM4"
         
     },
     {
@@ -36,7 +36,7 @@
         "id": "CM5",
         "precio": "6,99€",
         "source": "images/FotosMujeres/Camisetas/camiseta5.jpg",
-        "html": "camiseta.html?id=CM5"
+        "html": "camisetaMujer.html?id=CM5"
         
     },
     {
@@ -44,7 +44,7 @@
         "id": "CM6",
         "precio": "11,29€",
         "source": "images/FotosMujeres/Camisetas/camiseta6.jpg",
-        "html": "camiseta.html?id=CM6"
+        "html": "camisetaMujer.html?id=CM6"
         
     }
 ]

@@ -20,12 +20,16 @@ function getDatos(show,max,id){
         xhttp.open('GET', 'bikinisMujer.json', true)
     }else if(show == 10){
         xhttp.open('GET', 'complementosMujer.json', true)
+    }else if(show == 11){
+        xhttp.open('GET', 'camisetasHombre.json', true)
+    }else if(show == 12){
+        xhttp.open('GET', 'camisetasMujer.json', true)
     }
     xhttp.send()
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
             let datos = JSON.parse(this.responseText)
-            if(show != 11){
+            if(show != 12){
                 cargarJSON(datos,show,max)
                 console.log(datos)
             }else{
