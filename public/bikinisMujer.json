@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Naranja y Rosa",
+        "id": "BM1",
+        "precio": "15,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador1.jpg",
+        "html": "camiseta.html?id=BM1"
+        
+    },
+    {
+        "nombre": "Parte Arriba Verde",
+        "id": "BM2",
+        "precio": "10,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador2.jpg",
+        "html": "camiseta.html?id=BM2"
+        
+    },
+    {
+        "nombre": "Parte Abajo Azul",
+        "id": "BM3",
+        "precio": "8,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador3.jpg",
+        "html": "camiseta.html?id=BM3"
+        
+    },
+    {
+        "nombre": "Parte Arriba Lunares",
+        "id": "BM4",
+        "precio": "12,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador4.jpg",
+        "html": "camiseta.html?id=BM4"
+        
+    },
+    {
+        "nombre": "Azul con Margaritas",
+        "id": "BM5",
+        "precio": "21,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador5.jpg",
+        "html": "camiseta.html?id=BM5"
+        
+    },
+    {
+        "nombre": "Parte Abajo Azul",
+        "id": "BM6",
+        "precio": "7,99€",
+        "source": "images/FotosMujeres/Bañadores/bañador6.jpg",
+        "html": "camiseta.html?id=BM6"
+        
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Vaquera claro",
+        "id": "CHH1",
+        "precio": "40,50€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta1.jpg",
+        "html": "camiseta.html?id=CHH1"
+        
+    },
+    {
+        "nombre": "Vaquera bicolor",
+        "id": "CHH2",
+        "precio": "60,00€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta2.jpg",
+        "html": "camiseta.html?id=CHH2"
+        
+    },
+    {
+        "nombre": "Cuero negro",
+        "id": "CHH3",
+        "precio": "79,99€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta3.jpg",
+        "html": "camiseta.html?id=CHH3"
+        
+    },
+    {
+        "nombre": "Vaquera gris",
+        "id": "CHH4",
+        "precio": "28,00€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta4.jpg",
+        "html": "camiseta.html?id=CHH4"
+        
+    },
+    {
+        "nombre": "Beige",
+        "id": "CHH5",
+        "precio": "37,50€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta5.jpg",
+        "html": "camiseta.html?id=CHH5"
+        
+    },
+    {
+        "nombre": "Nasa Negra/Blanca",
+        "id": "CHH6",
+        "precio": "43,60€",
+        "source": "images/FotosHombres/Chaquetas/chaqueta6.jpg",
+        "html": "camiseta.html?id=CHH6"
+        
+    }
+]

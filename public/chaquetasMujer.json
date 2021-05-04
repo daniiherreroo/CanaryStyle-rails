@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Blanca Yale University",
+        "id": "CHM1",
+        "precio": "18,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera1.jpg",
+        "html": "camiseta.html?id=CHM1"
+        
+    },
+    {
+        "nombre": "Blanca Mafalla",
+        "id": "CHM2",
+        "precio": "12,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera2.jpg",
+        "html": "camiseta.html?id=CHM2"
+        
+    },
+    {
+        "nombre": "Gris con Ojo",
+        "id": "CHM3",
+        "precio": "19,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera3.jpg",
+        "html": "camiseta.html?id=CHM3"
+        
+    },
+    {
+        "nombre": "Sudadera Chaleco Beige",
+        "id": "CHM4",
+        "precio": "25,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera4.jpg",
+        "html": "camiseta.html?id=CHM4"
+        
+    },
+    {
+        "nombre": "Bella Salmon",
+        "id": "CHM5",
+        "precio": "16,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera5.jpg",
+        "html": "camiseta.html?id=CHM5"
+        
+    },
+    {
+        "nombre": "Nascita di Venere",
+        "id": "CHM6",
+        "precio": "29,99€",
+        "source": "images/FotosMujeres/Sudaderas/sudadera6.jpg",
+        "html": "camiseta.html?id=CHM6"
+        
+    }
+]

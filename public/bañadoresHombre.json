@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Azul celeste",
+        "id": "BH1",
+        "precio": "10,50€",
+        "source": "images/FotosHombres/Bañadores/bañador1.jpg",
+        "html": "camiseta.html?id=BH1"
+        
+    },
+    {
+        "nombre": "Estampado gris",
+        "id": "BH2",
+        "precio": "15,00€",
+        "source": "images/FotosHombres/Bañadores/bañador2.jpg",
+        "html": "camiseta.html?id=BH2"
+        
+    },
+    {
+        "nombre": "Limones",
+        "id": "BH3",
+        "precio": "9,99€",
+        "source": "images/FotosHombres/Bañadores/bañador3.jpg",
+        "html": "camiseta.html?id=BH3"
+        
+    },
+    {
+        "nombre": "Blanco/Negro",
+        "id": "BH4",
+        "precio": "5,00€",
+        "source": "images/FotosHombres/Bañadores/bañador4.jpg",
+        "html": "camiseta.html?id=BH4"
+        
+    },
+    {
+        "nombre": "Captus",
+        "id": "BH5",
+        "precio": "12,50€",
+        "source": "images/FotosHombres/Bañadores/bañador5.jpg",
+        "html": "camiseta.html?id=BH5"
+        
+    },
+    {
+        "nombre": "Polos helado",
+        "id": "BH6",
+        "precio": "9,99€",
+        "source": "images/FotosHombres/Bañadores/bañador6.jpg",
+        "html": "camiseta.html?id=BH6"
+        
+    }
+]

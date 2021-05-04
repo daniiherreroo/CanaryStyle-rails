@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Vaquero Mix",
+        "id": "PH1",
+        "precio": "10,00€",
+        "source": "images/FotosHombres/Pantalones/pantalon1.jpg",
+        "html": "camiseta.html?id=PH1"
+        
+    },
+    {
+        "nombre": "Vaquero Negro",
+        "id": "PH2",
+        "precio": "20,00€",
+        "source": "images/FotosHombres/Pantalones/pantalon2.jpg",
+        "html": "camiseta.html?id=PH2"
+        
+    },
+    {
+        "nombre": "Vaquero Claro",
+        "id": "PH3",
+        "precio": "23,50€",
+        "source": "images/FotosHombres/Pantalones/pantalon3.jpg",
+        "html": "camiseta.html?id=PH3"
+        
+    },
+    {
+        "nombre": "Vaquero Blanco",
+        "id": "PH4",
+        "precio": "22,00€",
+        "source": "images/FotosHombres/Pantalones/pantalon4.jpg",
+        "html": "camiseta.html?id=PH4"
+        
+    },
+    {
+        "nombre": "Vaquero Claro Roto",
+        "id": "PH5",
+        "precio": "17,50€",
+        "source": "images/FotosHombres/Pantalones/pantalon5.jpg",
+        "html": "camiseta.html?id=PH5"
+        
+    },
+    {
+        "nombre": "Vaquero Negro Roto",
+        "id": "PH6",
+        "precio": "23,60€",
+        "source": "images/FotosHombres/Pantalones/pantalon6.jpg",
+        "html": "camiseta.html?id=PH6"
+        
+    }
+]
