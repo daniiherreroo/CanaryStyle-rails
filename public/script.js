@@ -51,7 +51,7 @@ function cargarProducto(json,id) {
         }
     }
     $(".tituloproducto").text(productoName);
-    document.getElementById("productoImg").innerHTML = prodcutoImg;
+    document.getElementById("productoImg").innerHTML = productoImg;
     document.getElementById("productoPrecio").innerHTML = productoPrecio;
 
 }

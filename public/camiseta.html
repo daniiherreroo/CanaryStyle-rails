@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
+    
     <title>CanaryStyle</title>
     <script>
         $(document).ready(function () {
             var id = new URLSearchParams(window.location.search);
-            getDatos(10,0,id.get("id"))
-            //cargarCatalogo(5,0,id.get("id"));
+            getDatos(11,0,id.get("id"))
+            //cargarProducto(10,0,id.get("id"));
         });
     </script>
 </head>
@@ -57,6 +59,7 @@
     <!-- Usamos bootstrap para el grid -->
     <div class="row camiseta-row">
         <div id="productoImg" class="col camiseta-img">
+
         </div>
         <div class="col camiseta-data">
             <div class="productosetup">
