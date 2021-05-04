@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CanaryStyle</title>
+    <script>
+        $(document).ready(function () {
+            var id = new URLSearchParams(window.location.search);
+            getDatos(5,0,id.get("id"))
+            //cargarCatalogo(5,0,id.get("id"));
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -45,11 +52,10 @@
             </nav>
         </div>
     </header>
-    <h1 class="tituloproducto">Camiseta Tupac</h1>
+    <h1 class="tituloproducto"></h1>
     <!-- Usamos bootstrap para el grid -->
     <div class="row camiseta-row">
-        <div class="col camiseta-img">
-            <img src="images/FotosHombres/Camisetas/camiseta1.jpg" alt="camiseta1" />
+        <div id="productoImg" class="col camiseta-img">
         </div>
         <div class="col camiseta-data">
             <div class="productosetup">
@@ -66,7 +72,7 @@
                     <p>Cantidad: </p>
                     <input type="number" id="quantity" name="quantity" min="1" max="20" step="1" value="1">                
                 </div>
-                <div class="precioproducto">
+                <div id="productoPrecio" class="precioproducto">
                     <p>Precio: 10€</p>
                 </div>
             </div>

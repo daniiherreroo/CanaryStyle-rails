@@ -243,7 +243,6 @@ footer {
     height: 15%;
     background-color: black;
     clear: both;
-    position: fixed;
     left: 0px;
     bottom: 0px;
    
@@ -437,6 +436,7 @@ p:hover > a:hover {
     color: #fff;
     position: relative;
     /*padding: 40px;*/
+    margin-top: 150px;
 }
 
 .contenedor-form .toggle {
