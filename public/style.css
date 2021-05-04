@@ -243,8 +243,9 @@ footer {
     height: 15%;
     background-color: black;
     clear: both;
-    position:fixed;
-    left:0px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
    
 }
 
