@@ -1,0 +1,33 @@
+<header>
+  <div class="nav-wrap">
+    <div class="nav-block"></div>
+    <a href="index.html" class="logo-name">
+      CanaryStyle - Gestión
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#" class="align">Gestionar<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="/camisetasHombre">Camisetas</a></li>
+          </ul></li>
+        <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="pizzashtml.html">Pizzas</a></li>
+            <li><a href="pizzashtml.html">Complementos</a></li>
+            <li><a href="pizzashtml.html">Bebidas</a></li>
+            <li><a href="pizzashtml.html">Postres</a></li>
+          </ul></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="content">
+<h1>Editar Ropa</h1>
+
+<%= render 'form', camisetasHombre: @camisetasHombre %>
+
+<%= link_to 'Ver', @camisetasHombre %> |
+<%= link_to 'Atrás', camisetasHombre_path %>
+</div>
