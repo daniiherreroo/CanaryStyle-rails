@@ -1,1 +1,1 @@
-json.array! @camisetasHombre, partial: "camisetasHombre/camisetaHombre", as: :camisetaHombre
+json.array! @camisetashombre, partial: "camisetashombre/camisetahombre", as: :camisetahombre

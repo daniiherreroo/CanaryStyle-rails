@@ -1,10 +1,10 @@
-<%= form_with(model: camisetaHombre) do |form| %>
-    <% if camisetaHombre.errors.any? %>
+<%= form_with(model: camisetahombre) do |form| %>
+    <% if camisetahombre.errors.any? %>
       <div id="error_explanation">
-        <h2><%= pluralize(camisetaHombre.errors.count, "error") %> prohibited this clouth from being saved:</h2>
+        <h2><%= pluralize(camisetahombre.errors.count, "error") %> prohibited this clouth from being saved:</h2>
   
         <ul>
-          <% camisetaHombre.errors.each do |error| %>
+          <% camisetahombre.errors.each do |error| %>
             <li><%= error.full_message %></li>
           <% end %>
         </ul>

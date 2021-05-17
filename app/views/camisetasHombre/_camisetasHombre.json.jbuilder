@@ -1,2 +1,2 @@
-json.extract! camisetaHombre, :id, :name, :price, :source, :created_at, :updated_at
-json.url camisetaHombre_url(camisetaHombre, format: :json)
+json.extract! camisetahombre, :id, :name, :price, :source, :created_at, :updated_at
+json.url camisetahombre_url(camisetahombre, format: :json)

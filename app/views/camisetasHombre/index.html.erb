@@ -8,7 +8,7 @@
       <ul>
         <li><a href="#" class="align">Gestionar<i class="fa fa-caret-down"></i></a>
           <ul class="dropdown">
-            <li><a href="/camisetasHombre">Camisetas</a></li>
+            <li><a href="/camisetashombre">Camisetas</a></li>
           </ul></li>
         <li><a href="#" class="align">Carta<i class="fa fa-caret-down"></i></a>
           <ul class="dropdown">
@@ -39,15 +39,15 @@
   </thead>
 
   <tbody>
-    <% @camisetasHombre.each do |camisetaHombre| %>
+    <% @camisetashombre.each do |camisetahombre| %>
       <tr>
-        <td><%= camisetaHombre.name %></td>
-        <td><%= camisetaHombre.price %></td>
-        <td><%= camisetaHombre.source %></td>
-        <td class="imagencarrito"><img src=<%=camisetaHombre.source%>></td>
-        <td><%= link_to 'Ver', camisetaHombre %></td>
-        <td><%= link_to 'Editar', edit_camisetaHombre_path(camisetasHombre) %></td>
-        <td><%= link_to 'Eliminar', camisetaHombre, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
+        <td><%= camisetahombre.name %></td>
+        <td><%= camisetahombre.price %></td>
+        <td><%= camisetahombre.source %></td>
+        <td class="imagencarrito"><img src=<%=camisetahombre.source%>></td>
+        <td><%= link_to 'Ver', camisetahombre %></td>
+        <td><%= link_to 'Editar', edit_camisetahombre_path(camisetashombre) %></td>
+        <td><%= link_to 'Eliminar', camisetahombre, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -55,5 +55,5 @@
 
 <br>
 
-<%= link_to 'Añadir ropa', new_camisetaHombre_path %>
+<%= link_to 'Añadir ropa', new_camisetahombre_path %>
 </div>

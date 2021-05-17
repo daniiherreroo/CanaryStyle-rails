@@ -1,1 +1,1 @@
-json.partial! "camisetasHombre/camisetaHombre", camisetaHombre: @camisetaHombre
+json.partial! "camisetashombre/camisetahombre", camisetahombre: @camisetahombre

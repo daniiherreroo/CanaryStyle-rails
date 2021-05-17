@@ -1,10 +1,10 @@
 class CamisetasHombre < ActionController::Base
-    before_action : set_camisetaHombre, only: [:show, :edit, :update, :destroy]
+    before_action : set_camisetahombre, only: [:show, :edit, :update, :destroy]
     
     # GET /pizzas
     # GET /pizzas.json
     def index
-        @camisetasHombre = CamisetasHombre.all
+        @camisetashombre = CamisetasHombre.all
     end
     
     # GET /pizzas/1
@@ -14,7 +14,7 @@ class CamisetasHombre < ActionController::Base
     
     # GET /pizzas/new
     def new
-        @camisetaHombre = CamisetasHombre.new
+        @camisetahombre = CamisetasHombre.new
     end
     
     # GET /pizzas/1/edit
@@ -24,15 +24,15 @@ class CamisetasHombre < ActionController::Base
     # POST /pizzas
     # POST /pizzas.json
     def create
-        @camisetaHombre = CamisetasHombre.new(camisetaHombre_params)
+        @camisetahombre = CamisetasHombre.new(camisetahombre_params)
     
         respond_to do |format|
-        if @camisetaHombre.save
-            format.html { redirect_to @camisetaHombre, notice: 'La prenda se ha añadido correctamente' }
-            format.json { render :show, status: :created, location: @camisetaHombre }
+        if @camisetahombre.save
+            format.html { redirect_to @camisetahombre, notice: 'La prenda se ha añadido correctamente' }
+            format.json { render :show, status: :created, location: @camisetahombre }
         else
             format.html { render :new }
-            format.json { render json: @camisetaHombre.errors, status: :unprocessable_entity }
+            format.json { render json: @camisetahombre.errors, status: :unprocessable_entity }
         end
         end
     end
@@ -41,12 +41,12 @@ class CamisetasHombre < ActionController::Base
     # PATCH/PUT /pizzas/1.json
     def update
         respond_to do |format|
-        if @camisetaHombre.update(camisetaHombre_params)
-            format.html { redirect_to @camisetaHombre, notice: 'La prenda se ha actualizado correctamente' }
-            format.json { render :show, status: :ok, location: @camisetaHombre }
+        if @camisetahombre.update(camisetahombre_params)
+            format.html { redirect_to @camisetahombre, notice: 'La prenda se ha actualizado correctamente' }
+            format.json { render :show, status: :ok, location: @camisetahombre }
         else
             format.html { render :edit }
-            format.json { render json: @camisetaHombre.errors, status: :unprocessable_entity }
+            format.json { render json: @camisetahombre.errors, status: :unprocessable_entity }
         end
         end
     end
@@ -54,22 +54,22 @@ class CamisetasHombre < ActionController::Base
     # DELETE /pizzas/1
     # DELETE /pizzas/1.json
     def destroy
-        @camisetaHombre.destroy
+        @camisetahombre.destroy
         respond_to do |format|
-        format.html { redirect_to camisetasHombre_url, notice: 'La prenda se ha eliminado correctamente' }
+        format.html { redirect_to camisetashombre_url, notice: 'La prenda se ha eliminado correctamente' }
         format.json { head :no_content }
         end
     end
     
     private
         # Use callbacks to share common setup or constraints between actions.
-        def set_camisetaHombre
-        @camisetaHombre = CamisetasHombre.find(params[:id])
+        def set_camisetahombre
+        @camisetahombre = CamisetasHombre.find(params[:id])
         end
     
         # Only allow a list of trusted parameters through.
-        def camisetaHombre_params
-        params.require(:camisetaHombre).permit(:name, :price, :source)
+        def camisetahombre_params
+        params.require(:camisetahombre).permit(:name, :price, :source)
         end
     end
 end
