@@ -1,0 +1,1 @@
+json.array! @camisetasMujer, partial: "camisetasMujer/camisetaMujer", as: :camisetaMujer

@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "banadores_hombre", force: :cascade do |t|
+  create_table "banadoresHombre", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "bikinis_mujer", force: :cascade do |t|
+  create_table "bikinisMujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "camisetas_hombre", force: :cascade do |t|
+  create_table "camisetasHombre", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "camisetas_mujer", force: :cascade do |t|
+  create_table "camisetasMujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -47,7 +47,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "chaquetas_hombre", force: :cascade do |t|
+  create_table "chaquetasHombre", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "chaquetas_mujer", force: :cascade do |t|
+  create_table "chaquetasMujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -63,7 +63,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "complementos_hombre", force: :cascade do |t|
+  create_table "complementosHombre", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -71,7 +71,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "complementos_mujer", force: :cascade do |t|
+  create_table "complementosMujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -79,7 +79,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "pantalones_hombre", force: :cascade do |t|
+  create_table "pantalonesHombre", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
@@ -87,7 +87,7 @@ ActiveRecord::Schema.define(version: 2021_05_03_103326) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "pantalones_mujer", force: :cascade do |t|
+  create_table "pantalonesMujer", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "source"
