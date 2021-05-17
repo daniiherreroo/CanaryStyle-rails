@@ -1,2 +1,0 @@
-class CamisetasHombre < ApplicationRecord
-end

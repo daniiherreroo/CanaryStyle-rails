@@ -1,2 +1,0 @@
-class PantalonesHombre < ApplicationRecord
-end

@@ -1,0 +1,2 @@
+class CamisetaHombre < ApplicationRecord
+end
