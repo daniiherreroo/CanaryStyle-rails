@@ -1,0 +1,2 @@
+class PantalonesHombre < ApplicationRecord
+end

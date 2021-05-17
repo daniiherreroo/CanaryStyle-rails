@@ -39,15 +39,15 @@
   </thead>
 
   <tbody>
-    <% @camisetasHombre.each do |camisetasHombre| %>
+    <% @camisetasHombre.each do |camisetaHombre| %>
       <tr>
-        <td><%= camisetasHombre.name %></td>
-        <td><%= camisetasHombre.price %></td>
-        <td><%= camisetasHombre.source %></td>
-        <td class="imagencarrito"><img src=<%=camisetasHombre.source%>></td>
-        <td><%= link_to 'Ver', camisetasHombre %></td>
-        <td><%= link_to 'Editar', edit_camisetasHombre_path(camisetasHombre) %></td>
-        <td><%= link_to 'Eliminar', camisetasHombre, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
+        <td><%= camisetaHombre.name %></td>
+        <td><%= camisetaHombre.price %></td>
+        <td><%= camisetaHombre.source %></td>
+        <td class="imagencarrito"><img src=<%=camisetaHombre.source%>></td>
+        <td><%= link_to 'Ver', camisetaHombre %></td>
+        <td><%= link_to 'Editar', edit_camisetaHombre_path(camisetasHombre) %></td>
+        <td><%= link_to 'Eliminar', camisetaHombre, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -55,5 +55,5 @@
 
 <br>
 
-<%= link_to 'Añadir ropa', new_camisetasHombre_path %>
+<%= link_to 'Añadir ropa', new_camisetaHombre_path %>
 </div>
