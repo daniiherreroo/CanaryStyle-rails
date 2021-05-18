@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Tupac",
+        "id": "CH1",
+        "precio": "10,00€",
+        "source": "images/FotosHombres/Camisetas/camiseta1.jpg",
+        "html": "camisetaHombre.html?id=CH1"
+        
+    },
+    {
+        "nombre": "Rick & Morty",
+        "id": "CH2",
+        "precio": "9,00€",
+        "source": "images/FotosHombres/Camisetas/camiseta2.jpg",
+        "html": "camisetaHombre.html?id=CH2"
+        
+    },
+    {
+        "nombre": "Sasuke",
+        "id": "CH3",
+        "precio": "8,50€",
+        "source": "images/FotosHombres/Camisetas/camiseta3.jpg",
+        "html": "camisetaHombre.html?id=CH3"
+        
+    },
+    {
+        "nombre": "Tongue",
+        "id": "CH4",
+        "precio": "10,00€",
+        "source": "images/FotosHombres/Camisetas/camiseta4.jpg",
+        "html": "camisetaHombre.html?id=CH4"
+        
+    },
+    {
+        "nombre": "Palms",
+        "id": "CH5",
+        "precio": "9,50€",
+        "source": "images/FotosHombres/Camisetas/camiseta5.jpg",
+        "html": "camisetaHombre.html?id=CH5"
+        
+    },
+    {
+        "nombre": "Fence",
+        "id": "CH6",
+        "precio": "8,00€",
+        "source": "images/FotosHombres/Camisetas/camiseta6.jpg",
+        "html": "camisetaHombre.html?id=CH6"
+        
+    }
+]

@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif!important;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header img{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+.portada > img{
+    width: 100%;
+
+}
+
+.caption {
+    background-color: #008705;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+}
+
+.caption > p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+article.portada-article {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 60% 15%;
+    padding: 10px;
+}
+
+article > section.portada-section {
+    text-align: left;
+    padding: 20px;
+}
+
+article > aside.portada-aside > img {
+    width: 183px;
+    height: 457px;
+}
+
+/*CONTACTO.HTML*/
+.wrapper-contacto {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25%;
+    padding: 10px;
+}
+
+.wrapper-contacto h1{
+    padding-top:10px;
+    font-size: 40px;
+}
+
+.contact div {
+    font-size:17px;
+}
+
+
+
+.nav-block{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 60px;
+    max-height: 200px;
+    max-width: 90px;
+    background: #6c6c6d;
+}
+
+.nav-wrap{
+    
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #52a7f7;
+
+}
+
+.logo {
+    position: relative;
+    float: left;
+    width: 111px;
+    height: 60px;
+}
+
+.logo-name {
+    position: relative;
+    float: left;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;  
+    margin-left: 1%;
+    line-height: 60px;
+    height: 50.91px;
+}
+
+nav{
+    position: relative;
+    float:right;
+    max-width: 50%;
+    width: 35%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav li {
+    margin-right: 8%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.camisetastitulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 72px;
+    margin-left: 5%;
+
+}
+.camisetas{
+    /*
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;*/
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+}
+
+.main-camiseta {
+    width: 387px;
+    height: 558px;
+    
+    background: #71b2f0;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+.main-camiseta > img{
+    width: 387px;
+    height: 428px;
+    left: 203px;
+    top: 301px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+
+.camiseta-text{
+    font-size: 32px;
+    margin-top: 12px;
+}
+
+.camiseta-title {
+    margin-left: 0.5em;
+}
+
+.camiseta-price {
+    margin-right: 1em;
+}
+
+.marginsetup {
+    margin: 0;
+}
+
+.marginsetup > div{
+    margin: 0 0 0 0;
+}
+
+.precio-right{
+    float: right;
+}
+
+nav a > i{
+    display: inline;
+}
+
+nav li > ul.dropdown {
+    position: absolute;
+    display: none;
+    width: 120px;
+    height: 130px;
+    background:  #52a7f7;
+    padding-top: 0;
+}
+
+nav li > ul.dropdown li {
+    display: block;
+    padding-top: 1%;
+    list-style-type: none;
+}
+
+nav li > ul.dropdown li a {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    display: block;
+}
+
+nav li:hover > ul.dropdown {
+    display: block;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover{
+    color: white!important;
+}
+
+footer {
+    margin-top: 10%;
+    position: relative;
+    /*left: 0;*/
+    /*bottom: 0;*/
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    clear: both;
+    left: 0px;
+    bottom: 0px;
+   
+}
+
+.footer-bottom{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    color: #797979;
+    
+}
+
+.footer-terms{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-terms a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img img{
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.footer-img img.instagram{
+    width: 59px;
+    height: 40px;
+}
+
+.footer-img img.maps{
+    width: 44px;
+    height: 40px;
+}
+
+.footer-img img.phone{
+    width: 38px;
+    height: 40px;
+}
+
+.footer-img img.twitter{
+    width: 49px;
+    height: 47px;
+}
+
+.align{
+    display: flex;
+}
+
+.align > i {
+    margin: 7px 0 0 4px;
+}
+
+.center-camisetas {
+    display: flex;
+    justify-content: center;
+}
+.main-clientes {
+    width: 387px;
+    height: 208px;
+    
+}
+.main-clientes > img{
+    width: 387px;
+    height: 208px;
+    left: 203px;
+    top: 301px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+.clientestitulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 36px;
+    margin-left: 5%;
+}
+.extras{ 
+    margin-left: 5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.tituloproducto{
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+p > a{
+    text-decoration: none;
+    color: black;
+}
+
+p:hover > a:hover {
+    color: rgb(75, 75, 75)!important;
+}
+
+.col {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.col > p {
+    font-size: 2em;
+}
+.col > img{
+    width: 20em;
+    height: 25em;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.camiseta-row{
+    margin: 0!important;
+    
+}
+.camiseta-img{
+    margin: 2% 5% 2% 4%;
+}
+.camiseta-data{
+    text-align: left;
+    
+}
+
+.camiseta-img > img {
+    width: 500px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.tamañoproducto > p, .masaproducto > p, .cantidadproducto > p, .precioproducto > p {
+    margin: 1em 0 0 0;
+    font-size: 32px;
+}
+
+.tabla{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.imagencarrito > img{
+    width: 187px;
+    height: 198px;
+    left: 103px;
+    top: 201px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+.eliminar > img{
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 20px;
+}
+.main-camiseta:hover {
+    transform: scale(1.1);
+  }
+.hoverclientes:hover{
+    transform: scale(1.1);
+}
+.table > tbody> tr:hover{
+    background-color:#E6E6E6;
+}
+
+/*LOGIN*/
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 600px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    /*padding: 40px;*/
+    margin-top: 150px;
+}
+
+.contenedor-form .toggle {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #5c94fa;
+    border-bottom: 2px solid #5c94fa;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form .toggle:hover {
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
+}
+
+.contenedor-form .toggle span {
+    letter-spacing: 1px;
+}
+
+.contenedor-form h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.contenedor-form textarea,
+.contenedor-form input[type="name"],
+.contenedor-form input[type="email"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="text"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #5c94fa;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="name"]:focus,
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="email"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form input[type="submit"] {
+    background: #5c94fa;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+
+.contenedor-form .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.contenedor-form .formulario:nth-child(2) {
+    display: block;
+}
+.form{
+    background: rgba(0,0,0,.7);
+    max-width: 600px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    /*padding: 40px;*/
+}
+.form h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.form textarea,
+.form input[type="tel"],
+.form input[type="text"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #5c94fa;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+.form textarea:focus,
+.form input[type="text"]:focus,
+.form input[type="tel"]:focus{
+    border-bottom: 4px solid #0075d9;
+}
+.form input[type="submit"] {
+    background: #5c94fa;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.form .formulario {
+    padding: 40px;
+}
+.form input[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}

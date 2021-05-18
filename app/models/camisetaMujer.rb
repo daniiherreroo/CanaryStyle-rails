@@ -1,0 +1,2 @@
+class CamisetaMujer < ApplicationRecord
+end

@@ -1,0 +1,38 @@
+<%= form_with(model: camisetaMujer) do |form| %>
+  <% if camisetaMujer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(camisetaMujer.errors.count, "error") %> prohibited this camisetaMujer from being saved:</h2>
+
+      <ul>
+        <% camisetaMujer.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <table>
+    <tr>
+    <div class="field">
+      <td><%= form.label :nombre %></td>
+      <td><%= form.text_field :name %></td>
+    </div>
+    </tr>
+    <tr>
+    <div class="field">
+      <td><%= form.label :precio %></td>
+      <td><%= form.text_field :price %></td>
+    </div>
+    </tr>
+    <tr>
+    <div class="field">
+      <td><%= form.label :source %></td>
+      <td><%= form.text_field :source %></td>
+    </div>
+    </tr>
+    <tr>
+    <div class="actions">
+      <td><%= form.submit %></td>
+    </div>
+    </tr>
+  </table>
+<% end %>

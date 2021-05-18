@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Collar coral",
+        "id": "CPM1",
+        "precio": "12,60€",
+        "source": "images/FotosMujeres/Complementos/complemento1.jpg",
+        "html": "camiseta.html?id=CPM1"
+        
+    },
+    {
+        "nombre": "Collar azul",
+        "id": "CPM2",
+        "precio": "4,50€",
+        "source": "images/FotosMujeres/Complementos/complemento2.jpg",
+        "html": "camiseta.html?id=CPM2"
+        
+    },
+    {
+        "nombre": "Collar de cascabel",
+        "id": "CPM3",
+        "precio": "15,99€",
+        "source": "images/FotosMujeres/Complementos/complemento3.jpg",
+        "html": "camiseta.html?id=CPM3"
+        
+    },
+    {
+        "nombre": "Collar dorado",
+        "id": "CPM4",
+        "precio": "20,00€",
+        "source": "images/FotosMujeres/Complementos/complemento4.jpg",
+        "html": "camiseta.html?id=CPM4"
+        
+    },
+    {
+        "nombre": "Pendientes de coral",
+        "id": "CPM5",
+        "precio": "24,00€",
+        "source": "images/FotosMujeres/Complementos/complemento5.jpg",
+        "html": "camiseta.html?id=CPM5"
+        
+    },
+    {
+        "nombre": "Gafas",
+        "id": "CPM6",
+        "precio": "13,99€",
+        "source": "images/FotosMujeres/Complementos/complemento6.jpg",
+        "html": "camiseta.html?id=CPM6"
+        
+    }
+]

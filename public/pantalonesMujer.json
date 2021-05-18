@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Vaquero Beige",
+        "id": "PM1",
+        "precio": "15,99€",
+        "source": "images/FotosMujeres/Pantalones/pantalon1.jpg",
+        "html": "camiseta.html?id=PM1"
+        
+    },
+    {
+        "nombre": "Blanco Difuminado",
+        "id": "PM2",
+        "precio": "19,50€",
+        "source": "images/FotosMujeres/Pantalones/pantalon2.jpg",
+        "html": "camiseta.html?id=PM2"
+        
+    },
+    {
+        "nombre": "Vaquero Blanco",
+        "id": "PM3",
+        "precio": "28,50€",
+        "source": "images/FotosMujeres/Pantalones/pantalon3.jpg",
+        "html": "camiseta.html?id=PM3"
+        
+    },
+    {
+        "nombre": "Lunares Blanco",
+        "id": "PM4",
+        "precio": "9,99€",
+        "source": "images/FotosMujeres/Pantalones/pantalon4.jpg",
+        "html": "camiseta.html?id=PM4"
+        
+    },
+    {
+        "nombre": "Ancho Rojo",
+        "id": "PM5",
+        "precio": "15,00€",
+        "source": "images/FotosMujeres/Pantalones/pantalon5.jpg",
+        "html": "camiseta.html?id=PM5"
+        
+    },
+    {
+        "nombre": "Chandal Gris",
+        "id": "PM6",
+        "precio": "21,29€",
+        "source": "images/FotosMujeres/Pantalones/pantalon6.jpg",
+        "html": "camiseta.html?id=PM6"
+        
+    }
+]

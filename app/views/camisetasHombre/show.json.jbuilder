@@ -1,0 +1,1 @@
+json.partial! "camisetashombre/camisetahombre", camisetahombre: @camisetahombre

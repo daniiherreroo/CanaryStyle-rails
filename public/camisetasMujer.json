@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Blanca y Rosa Los Angeles",
+        "id": "CM1",
+        "precio": "6,99€",
+        "source": "images/FotosMujeres/Camisetas/camiseta1.jpg",
+        "html": "camisetaMujer.html?id=CM1"
+        
+    },
+    {
+        "nombre": "Creazione di Adamo",
+        "id": "CM2",
+        "precio": "13,99€",
+        "source": "images/FotosMujeres/Camisetas/camiseta2.jpg",
+        "html": "camisetaMujer.html?id=CM2"
+        
+    },
+    {
+        "nombre": "Tirantes Azul",
+        "id": "CM3",
+        "precio": "4,99€",
+        "source": "images/FotosMujeres/Camisetas/camiseta3.jpg",
+        "html": "camisetaMujer.html?id=CM3"
+        
+    },
+    {
+        "nombre": "Bosque de Color",
+        "id": "CM4",
+        "precio": "8,99€",
+        "source": "images/FotosMujeres/Camisetas/camiseta4.jpg",
+        "html": "camisetaMujer.html?id=CM4"
+        
+    },
+    {
+        "nombre": "Blanca y Azul Venice",
+        "id": "CM5",
+        "precio": "6,99€",
+        "source": "images/FotosMujeres/Camisetas/camiseta5.jpg",
+        "html": "camisetaMujer.html?id=CM5"
+        
+    },
+    {
+        "nombre": "Snoopy",
+        "id": "CM6",
+        "precio": "11,29€",
+        "source": "images/FotosMujeres/Camisetas/camiseta6.jpg",
+        "html": "camisetaMujer.html?id=CM6"
+        
+    }
+]
