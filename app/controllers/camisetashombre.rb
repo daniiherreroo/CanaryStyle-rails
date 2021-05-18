@@ -1,10 +1,10 @@
-class CamisetasHombre < ActionController::Base
+class CamisetasHombreController < ActionController::Base
     before_action : set_camisetahombre, only: [:show, :edit, :update, :destroy]
     
     # GET /pizzas
     # GET /pizzas.json
     def index
-        @camisetashombre = CamisetasHombre.all
+        @camisetashombre = CamisetaHombre.all
     end
     
     # GET /pizzas/1
@@ -14,7 +14,7 @@ class CamisetasHombre < ActionController::Base
     
     # GET /pizzas/new
     def new
-        @camisetahombre = CamisetasHombre.new
+        @camisetahombre = CamisetaHombre.new
     end
     
     # GET /pizzas/1/edit
@@ -24,7 +24,7 @@ class CamisetasHombre < ActionController::Base
     # POST /pizzas
     # POST /pizzas.json
     def create
-        @camisetahombre = CamisetasHombre.new(camisetahombre_params)
+        @camisetahombre = CamisetaHombre.new(camisetahombre_params)
     
         respond_to do |format|
         if @camisetahombre.save
@@ -64,7 +64,7 @@ class CamisetasHombre < ActionController::Base
     private
         # Use callbacks to share common setup or constraints between actions.
         def set_camisetahombre
-        @camisetahombre = CamisetasHombre.find(params[:id])
+        @camisetahombre = CamisetaHombre.find(params[:id])
         end
     
         # Only allow a list of trusted parameters through.

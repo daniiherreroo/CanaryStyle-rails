@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  resources :camisetasHombre
-  resources :pantalonesHombre
-  resources :chaquetasHombre
-  resources :banadoresHombre
-  resources :complementosHombre
-  resources :camisetasMujer
-  resources :pantalonesMujer
-  resources :chaquetasMujer
-  resources :bikinisMujer
-  resources :complementosMujer
+  resources :camisetashombre
+  resources :pantaloneshombre
+  resources :chaquetashombre
+  resources :banadoreshombre
+  resources :complementoshombre
+  resources :camisetasmujer
+  resources :pantalonesmujer
+  resources :chaquetasmujer
+  resources :bikinismujer
+  resources :complementosmujer
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
